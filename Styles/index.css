@@ -43,9 +43,6 @@ header a{
 main{
     grid-area: m;
 }
-img{
-    width: 100%;
-}
 
 nav{
     grid-area: n;
@@ -88,10 +85,50 @@ nav{
     float: none;
     text-align: left;
     width: 100%;
+    padding-bottom: 19px;
     background-color: #2b7a78;
     border: #17252a solid 2px;
     border-radius: 4px;
-    padding-bottom: 19px;
+}
+.left_img{
+    float: none;
+    width: 100%;
+    padding: 5px 5px;
+    background-color: #2b7a78;
+    border: #17252a solid 2px;
+    border-radius: 4px;
+}
+.right_img{
+    float: none;
+    width: 100%;
+    padding: 5px 5px;
+    background-color: #2b7a78;
+    border: #17252a solid 2px;
+    border-radius: 4px;
+}
+.basics_img{
+    float: left;
+    width: 100%;
+    padding: 5px 5px;
+    background-color: #2b7a78;
+    border: #17252a solid 2px;
+    border-radius: 4px;
+}
+.more_img{
+    float: none;
+    width: 100%;
+    padding: 5px 5px;
+    background-color: #2b7a78;
+    border: #17252a solid 2px;
+    border-radius: 4px;
+}
+.index_img{
+    float: none;
+    width: 100%;
+    padding: 5px 5px;
+    background-color: #2b7a78;
+    border: #17252a solid 2px;
+    border-radius: 4px;
 }
 
 section{
@@ -121,19 +158,18 @@ footer a{
     padding: 0% 5%;
     word-wrap:break-word;
 }
-
-.aside_links_list{
-    background-color: #A6A6A6;
-    color: black;
-    border: 2px solid #595959;
-    border-radius: 8px;
-    text-align: left;
-    margin: 5px;
-    padding: 5px;
-    margin-bottom:20px;
+.links{
+    float: none;
+    width: 100%;
+    padding: 5px 5px;
+    background-color: #2b7a78;
+    border: #17252a solid 2px;
+    border-radius: 4px;
+    text-align: center;
 }
-.aside_links_list a{
+.links a{
     text-decoration: none;
+    color: #FEFFFF;
 }
 
 .container{
@@ -172,9 +208,6 @@ footer a{
     .menu a{
         display: inline;
     }
-    img{
-        width: 760px;
-    }
     .article{
         padding: 0% 10%;
         text-align: left;
@@ -184,6 +217,10 @@ footer a{
         text-align: center;
         float: left;
         margin-right: 8px;
+    }
+    .article_index{
+        float: left;
+        width: 42%;
     }
     .left{
         float: left;
@@ -198,5 +235,38 @@ footer a{
         width: 49%;
         margin-bottom: 5px;
         margin-right: 5px;
+    }
+    .left_img{
+        float: left;
+        width: 25%;
+        margin: 10px;
+        margin-bottom: 11px;
+        margin-left: 13%;
+    }
+    .right_img{
+        float: right;
+        width: 25%;
+        margin: 10px;
+        margin-bottom: 11px;
+        margin-right: 13%;
+    }
+    .index_img{
+        float: right;
+        width: 56%;
+        margin: 6px;
+    }
+    .basics_img{
+        float: left;
+        width: 50%;
+    }
+    .more_img{
+        float: none;
+        width: 40%;
+    }
+    .links{
+        float: none;
+        width: 50%;
+        margin: 10px 25%;
+        margin-bottom: 18%;
     }
 }
