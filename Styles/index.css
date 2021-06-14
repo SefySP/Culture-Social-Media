@@ -76,7 +76,7 @@ nav{
 .left{
     float: none;
     text-align: left;
-    width: 100%;
+    width: 95%;
     background-color: #2b7a78;
     border: #17252a solid 2px;
     border-radius: 4px;
@@ -84,7 +84,7 @@ nav{
 .right{
     float: none;
     text-align: left;
-    width: 100%;
+    width: 95%;
     padding-bottom: 19px;
     background-color: #2b7a78;
     border: #17252a solid 2px;
@@ -92,7 +92,7 @@ nav{
 }
 .left_img{
     float: none;
-    width: 100%;
+    width: 95%;
     padding: 5px 5px;
     background-color: #2b7a78;
     border: #17252a solid 2px;
@@ -100,15 +100,15 @@ nav{
 }
 .right_img{
     float: none;
-    width: 100%;
+    width: 95%;
     padding: 5px 5px;
     background-color: #2b7a78;
     border: #17252a solid 2px;
     border-radius: 4px;
 }
 .basics_img{
-    float: left;
-    width: 100%;
+    float: none;
+    width: 95%;
     padding: 5px 5px;
     background-color: #2b7a78;
     border: #17252a solid 2px;
@@ -116,7 +116,7 @@ nav{
 }
 .more_img{
     float: none;
-    width: 100%;
+    width: 95%;
     padding: 5px 5px;
     background-color: #2b7a78;
     border: #17252a solid 2px;
@@ -124,7 +124,7 @@ nav{
 }
 .index_img{
     float: none;
-    width: 100%;
+    width: 95%;
     padding: 5px 5px;
     background-color: #2b7a78;
     border: #17252a solid 2px;
